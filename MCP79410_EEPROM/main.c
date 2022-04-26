@@ -87,8 +87,11 @@ int main(int argc, char **argv)
 	}
 	
 	I2C_Close();								//Return I2C pins to default status
+ 
+ printf("");
 
 	return 0;
+ 
 }
 
 
